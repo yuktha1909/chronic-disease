@@ -1,0 +1,38 @@
+{
+  "Logistic Regression": {
+    "metrics": {
+      "accuracy": 0.7142857142857143,
+      "precision": 0.6086956521739131,
+      "recall": 0.5185185185185185,
+      "f1": 0.56
+    },
+    "best_params": {
+      "clf__C": 0.1,
+      "clf__penalty": "l2"
+    }
+  },
+  "Random Forest": {
+    "metrics": {
+      "accuracy": 0.7337662337662337,
+      "precision": 0.6226415094339622,
+      "recall": 0.6111111111111112,
+      "f1": 0.616822429906542
+    },
+    "best_params": {
+      "clf__max_depth": 10,
+      "clf__n_estimators": 300
+    }
+  },
+  "SVM (RBF)": {
+    "metrics": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.62,
+      "recall": 0.5740740740740741,
+      "f1": 0.5961538461538461
+    },
+    "best_params": {
+      "clf__C": 1.0,
+      "clf__gamma": "scale"
+    }
+  }
+}
